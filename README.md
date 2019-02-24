@@ -17,10 +17,6 @@ Otherwise, the following line will compile all the code:
 
     emcc -Wall -Werror --bind -I. -O2 --memory-init-file 0 -o curvelib.html CurveBridge.cpp Curve.cpp CurveFunctions.cpp
 
-## Writing
-
-Fill in the functions in the file `CurveFunctions.cpp`. That's the only file you need to change.
-
 ## Debugging
 
 You won't be able to set breakpoints in your C++ code, but you can use the following functions to log messages:
